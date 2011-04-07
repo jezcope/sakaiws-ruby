@@ -1,5 +1,5 @@
 module Sakai
-  module Webservices
+  module WebServices
     VERSION = "0.0.1"
   end
 end
