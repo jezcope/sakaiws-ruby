@@ -89,7 +89,7 @@ module Sakai
 
     end
 
-    class LoginService < Service
+    class Login < Service
       def initialize(args = {})
         super(args.merge(:service => 'SakaiLogin'))
       end
@@ -104,7 +104,7 @@ module Sakai
       end
     end
 
-    class ScriptService < Service
+    class Script < Service
       def initialize(args = {})
         super(args.merge(:service => 'SakaiScript'))
       end
