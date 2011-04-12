@@ -40,8 +40,6 @@ module Sakai
             args[:service]
           ]
 
-        puts @endpoint
-
         @client = Savon::Client.new
         @client.wsdl.endpoint = @endpoint
         @client.wsdl.namespace = @endpoint
