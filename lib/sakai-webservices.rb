@@ -130,6 +130,8 @@ module Sakai
       end
 
       soap_method :get_user_id
+      
+      soap_method :get_site_title
     end
   end
 end
