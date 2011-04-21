@@ -1,6 +1,8 @@
 # Overview #
 
-This is a simple library to make it easy to access [Sakai][] web services from Ruby.
+This is a simple library to make it easy to access [Sakai][] web services from
+Ruby. Sorry there's no documentation yet, but the code is fairly
+straightforward if you're happy to learn that way.
 
 [Sakai]: http://sakaiproject.org/
 
