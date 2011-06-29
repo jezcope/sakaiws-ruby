@@ -136,6 +136,11 @@ module Sakai
       soap_method :get_user_id
       
       soap_method :get_site_title
+
+      soap_method :get_site_description
+      soap_method :change_site_description
+
+      soap_method :copy_site
     end
   end
 end
