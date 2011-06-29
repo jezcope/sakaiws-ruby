@@ -62,6 +62,10 @@ module Sakai
           return_key = "#{name}_return".to_sym
           response = response[response_key][return_key]
 
+          match = response =~ /((?:\w+\.)*(?:\w+Exception)) : (.*)/
+
+          raise $1 if match
+
           if block
             return self.instance_exec(response, &block)
           else
