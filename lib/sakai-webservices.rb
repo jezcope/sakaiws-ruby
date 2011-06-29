@@ -60,7 +60,7 @@ module Sakai
 
           response_key = "#{name}_response".to_sym
           return_key = "#{name}_return".to_sym
-          response = response.to_array response_key, return_key
+          response = response[response_key][return_key]
 
           if block
             return self.instance_exec(response, &block)
