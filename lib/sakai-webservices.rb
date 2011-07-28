@@ -125,6 +125,8 @@ module Sakai
 
       soap_method :set_role_for_authz_group_maintenance
 
+      soap_method :check_for_user_in_authz_group
+
       soap_method :add_member_to_authz_group_with_role
 
       soap_method :remove_role_from_authz_group
