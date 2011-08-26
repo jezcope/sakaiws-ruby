@@ -135,6 +135,7 @@ module Sakai
         extract_list_from_xml(response, 'user')
       end
 
+      soap_method :get_all_users
       soap_method :get_user_id
       
       soap_method :get_site_title
