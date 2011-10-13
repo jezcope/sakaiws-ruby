@@ -144,6 +144,9 @@ module Sakai
       soap_method :change_site_description
 
       soap_method :copy_site
+
+      soap_method :add_group_to_site
+      soap_method :add_member_to_group
     end
   end
 end
