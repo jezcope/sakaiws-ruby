@@ -129,6 +129,8 @@ module Sakai
 
       soap_method :add_member_to_authz_group_with_role
 
+      soap_method :remove_member_from_authz_group
+
       soap_method :remove_role_from_authz_group
 
       soap_method :get_users_in_authz_group_with_role do |response|
